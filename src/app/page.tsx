@@ -27,7 +27,7 @@ export default function Home() {
   const handleCloseVideo = () => setVideoOpen(false);
 
   return (
-    <div className="flex min-h-screen flex-col bg-[#FAF8F5] text-[#1E1E1E] antialiased selection:bg-[#C5A065] selection:text-[#1E1E1E] overflow-x-hidden w-full">
+    <div className="flex min-h-screen flex-col bg-[#FDFBF7] text-[#0E0F0A] antialiased selection:bg-[#EDB21F] selection:text-[#0E0F0A] overflow-x-hidden w-full">
       {/* 1. Header & Navigation */}
       <Navbar onOpenConsultation={handleOpenConsultation} />
 
@@ -42,7 +42,7 @@ export default function Home() {
           {/* 3. 4-Column Trust Stats Bar */}
           <StatsBar />
 
-          {/* 4. About AG Interior with Arched Dining Room & Badges */}
+          {/* 4. About Honey Craft Interior with Arched Dining Room & Badges */}
           <AboutSection />
 
           {/* 5. Complete Interior Solutions (4 Service Cards) */}

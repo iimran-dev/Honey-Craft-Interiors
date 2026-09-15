@@ -9,7 +9,7 @@ export function Footer() {
     "https://images.unsplash.com/photo-1584589167171-541ce45f1eea?q=80&w=600&auto=format&fit=crop";
 
   return (
-    <footer id="contact" className="bg-[#FAF8F5] pt-14 sm:pt-20 pb-12 border-t border-[#ECE7DF] relative overflow-hidden">
+    <footer id="contact" className="bg-[#FDFBF7] pt-14 sm:pt-20 pb-12 border-t border-[#DAD6CB] relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Main Footer Columns */}
@@ -18,7 +18,7 @@ export function Footer() {
           {/* Col 1: Brand & Slogan (3 cols) */}
           <div className="lg:col-span-3 flex flex-col items-start">
             <Logo size="md" className="!items-start mb-4" />
-            <p className="font-display italic text-sm text-[#706B62] mt-2 max-w-xs leading-relaxed">
+            <p className="font-display italic text-sm text-[#77766F] mt-2 max-w-xs leading-relaxed">
               Thoughtful Spaces <br />
               for a Better Tomorrow.
             </p>
@@ -26,32 +26,32 @@ export function Footer() {
 
           {/* Col 2: Quick Links (2 cols) */}
           <div className="lg:col-span-2">
-            <h4 className="font-display text-sm font-semibold text-[#1E1E1E] uppercase tracking-wider mb-4">
+            <h4 className="font-display text-sm font-semibold text-[#0E0F0A] uppercase tracking-wider mb-4">
               Quick Links
             </h4>
-            <ul className="space-y-2.5 text-xs sm:text-sm font-sans text-[#6B655B]">
+            <ul className="space-y-2.5 text-xs sm:text-sm font-sans text-[#77766F]">
               <li>
-                <Link href="#hero" className="hover:text-[#C5A065] transition-colors inline-block py-0.5">
+                <Link href="#hero" className="hover:text-[#EDB21F] transition-colors inline-block py-0.5">
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="#about" className="hover:text-[#C5A065] transition-colors inline-block py-0.5">
+                <Link href="#about" className="hover:text-[#EDB21F] transition-colors inline-block py-0.5">
                   About
                 </Link>
               </li>
               <li>
-                <Link href="#services" className="hover:text-[#C5A065] transition-colors inline-block py-0.5">
+                <Link href="#services" className="hover:text-[#EDB21F] transition-colors inline-block py-0.5">
                   Services
                 </Link>
               </li>
               <li>
-                <Link href="#projects" className="hover:text-[#C5A065] transition-colors inline-block py-0.5">
+                <Link href="#projects" className="hover:text-[#EDB21F] transition-colors inline-block py-0.5">
                   Projects
                 </Link>
               </li>
               <li>
-                <Link href="#contact" className="hover:text-[#C5A065] transition-colors inline-block py-0.5">
+                <Link href="#contact" className="hover:text-[#EDB21F] transition-colors inline-block py-0.5">
                   Contact
                 </Link>
               </li>
@@ -60,32 +60,32 @@ export function Footer() {
 
           {/* Col 3: Our Services (2 cols) */}
           <div className="lg:col-span-2">
-            <h4 className="font-display text-sm font-semibold text-[#1E1E1E] uppercase tracking-wider mb-4">
+            <h4 className="font-display text-sm font-semibold text-[#0E0F0A] uppercase tracking-wider mb-4">
               Our Services
             </h4>
-            <ul className="space-y-2.5 text-xs sm:text-sm font-sans text-[#6B655B]">
+            <ul className="space-y-2.5 text-xs sm:text-sm font-sans text-[#77766F]">
               <li>
-                <Link href="#services" className="hover:text-[#C5A065] transition-colors inline-block py-0.5">
+                <Link href="#services" className="hover:text-[#EDB21F] transition-colors inline-block py-0.5">
                   Home Interiors
                 </Link>
               </li>
               <li>
-                <Link href="#services" className="hover:text-[#C5A065] transition-colors inline-block py-0.5">
+                <Link href="#services" className="hover:text-[#EDB21F] transition-colors inline-block py-0.5">
                   Modular Kitchens
                 </Link>
               </li>
               <li>
-                <Link href="#services" className="hover:text-[#C5A065] transition-colors inline-block py-0.5">
+                <Link href="#services" className="hover:text-[#EDB21F] transition-colors inline-block py-0.5">
                   Wardrobes
                 </Link>
               </li>
               <li>
-                <Link href="#services" className="hover:text-[#C5A065] transition-colors inline-block py-0.5">
+                <Link href="#services" className="hover:text-[#EDB21F] transition-colors inline-block py-0.5">
                   False Ceilings
                 </Link>
               </li>
               <li>
-                <Link href="#services" className="hover:text-[#C5A065] transition-colors inline-block py-0.5">
+                <Link href="#services" className="hover:text-[#EDB21F] transition-colors inline-block py-0.5">
                   Commercial Interiors
                 </Link>
               </li>
@@ -94,33 +94,33 @@ export function Footer() {
 
           {/* Col 4: Contact Us (3 cols) */}
           <div className="lg:col-span-3">
-            <h4 className="font-display text-sm font-semibold text-[#1E1E1E] uppercase tracking-wider mb-4">
+            <h4 className="font-display text-sm font-semibold text-[#0E0F0A] uppercase tracking-wider mb-4">
               Contact Us
             </h4>
-            <ul className="space-y-3 text-xs sm:text-sm font-sans text-[#6B655B]">
+            <ul className="space-y-3 text-xs sm:text-sm font-sans text-[#77766F]">
               <li className="flex items-start gap-2.5">
-                <MapPin className="w-4 h-4 text-[#C5A065] flex-shrink-0 mt-0.5" />
+                <MapPin className="w-4 h-4 text-[#EDB21F] flex-shrink-0 mt-0.5" />
                 <span>
                   Jonas The Downs Avenue, <br />
                   Chennai, India 600127
                 </span>
               </li>
               <li className="flex items-center gap-2.5">
-                <Phone className="w-4 h-4 text-[#C5A065] flex-shrink-0" />
+                <Phone className="w-4 h-4 text-[#EDB21F] flex-shrink-0" />
                 <a
                   href="tel:+919585544446"
-                  className="hover:text-[#C5A065] transition-colors"
+                  className="hover:text-[#EDB21F] transition-colors"
                 >
                   +91 95855 44446
                 </a>
               </li>
               <li className="flex items-center gap-2.5">
-                <Mail className="w-4 h-4 text-[#C5A065] flex-shrink-0" />
+                <Mail className="w-4 h-4 text-[#EDB21F] flex-shrink-0" />
                 <a
-                  href="mailto:aginteriorofficial@gmail.com"
-                  className="hover:text-[#C5A065] transition-colors"
+                  href="mailto:contact@honeycraftinteriors.com"
+                  className="hover:text-[#EDB21F] transition-colors"
                 >
-                  aginteriorofficial@gmail.com
+                  contact@honeycraftinteriors.com
                 </a>
               </li>
             </ul>
@@ -131,7 +131,7 @@ export function Footer() {
                 href="https://instagram.com"
                 target="_blank"
                 rel="noreferrer"
-                className="w-9 h-9 rounded-full border border-[#D5CEC2] flex items-center justify-center text-[#555] hover:border-[#C5A065] hover:text-[#C5A065] transition-colors"
+                className="w-9 h-9 rounded-full border border-[#DAD6CB] flex items-center justify-center text-[#77766F] hover:border-[#EDB21F] hover:text-[#EDB21F] transition-colors"
                 aria-label="Instagram"
               >
                 <Instagram className="w-4 h-4" />
@@ -140,7 +140,7 @@ export function Footer() {
                 href="https://wa.me/919585544446"
                 target="_blank"
                 rel="noreferrer"
-                className="w-9 h-9 rounded-full border border-[#D5CEC2] flex items-center justify-center text-[#555] hover:border-[#C5A065] hover:text-[#C5A065] transition-colors"
+                className="w-9 h-9 rounded-full border border-[#DAD6CB] flex items-center justify-center text-[#77766F] hover:border-[#EDB21F] hover:text-[#EDB21F] transition-colors"
                 aria-label="WhatsApp"
               >
                 <MessageCircle className="w-4 h-4" />
@@ -149,7 +149,7 @@ export function Footer() {
                 href="https://facebook.com"
                 target="_blank"
                 rel="noreferrer"
-                className="w-9 h-9 rounded-full border border-[#D5CEC2] flex items-center justify-center text-[#555] hover:border-[#C5A065] hover:text-[#C5A065] transition-colors"
+                className="w-9 h-9 rounded-full border border-[#DAD6CB] flex items-center justify-center text-[#77766F] hover:border-[#EDB21F] hover:text-[#EDB21F] transition-colors"
                 aria-label="Facebook"
               >
                 <Facebook className="w-4 h-4" />
@@ -162,7 +162,7 @@ export function Footer() {
             {/* Arched small frame */}
             <div
               data-animate="arch-reveal"
-              className="relative w-20 sm:w-24 h-32 sm:h-36 rounded-t-full rounded-b-lg overflow-hidden border border-[#DFD8CC] shadow-sm flex-shrink-0 bg-[#F0ECE4]"
+              className="relative w-20 sm:w-24 h-32 sm:h-36 rounded-t-full rounded-b-lg overflow-hidden border border-[#DAD6CB] shadow-sm flex-shrink-0 bg-[#F3EFE7]"
             >
               <Image
                 src={archImage}
@@ -175,13 +175,13 @@ export function Footer() {
 
             {/* Cursive Tag: Design Live Belong */}
             <div className="flex flex-col space-y-1">
-              <span className="font-script text-2xl text-[#C5A065] leading-none">
+              <span className="font-script text-2xl text-[#EDB21F] leading-none">
                 Design
               </span>
-              <span className="font-script text-2xl text-[#1E1E1E] leading-none">
+              <span className="font-script text-2xl text-[#0E0F0A] leading-none">
                 Live
               </span>
-              <span className="font-script text-2xl text-[#C5A065] leading-none">
+              <span className="font-script text-2xl text-[#EDB21F] leading-none">
                 Belong
               </span>
             </div>
@@ -190,9 +190,9 @@ export function Footer() {
         </div>
 
         {/* Bottom Copyright Bar */}
-        <div className="pt-8 border-t border-[#EAE4D9] flex flex-col sm:flex-row items-center justify-between text-xs font-sans text-[#8C867C] gap-3 text-center sm:text-left">
-          <p>© 2025 AG Interior. All rights reserved.</p>
-          <p className="font-display italic text-[#C5A065]">
+        <div className="pt-8 border-t border-[#DAD6CB] flex flex-col sm:flex-row items-center justify-between text-xs font-sans text-[#77766F] gap-3 text-center sm:text-left">
+          <p>© 2025 Honey Craft Interior. All rights reserved.</p>
+          <p className="font-display italic text-[#EDB21F]">
             Interiors for a Better You.
           </p>
         </div>

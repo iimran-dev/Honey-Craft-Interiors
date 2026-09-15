@@ -20,7 +20,7 @@ export function TestimonialsSection() {
   const current = TESTIMONIALS[currentIndex];
 
   return (
-    <section className="py-16 sm:py-24 lg:py-28 bg-[#FAF8F5] border-t border-[#ECE7DF] relative overflow-hidden">
+    <section className="py-16 sm:py-24 lg:py-28 bg-[#FDFBF7] border-t border-[#DAD6CB] relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
           
@@ -29,14 +29,14 @@ export function TestimonialsSection() {
             
             {/* Kicker */}
             <div className="flex items-center gap-2 mb-3">
-              <span className="h-px w-6 bg-[#C5A065]" />
-              <span className="text-[11px] font-sans uppercase tracking-[0.24em] text-[#C5A065] font-semibold">
+              <span className="h-px w-6 bg-[#EDB21F]" />
+              <span className="text-[11px] font-sans uppercase tracking-[0.24em] text-[#EDB21F] font-semibold">
                 What Our Clients Say
               </span>
             </div>
 
             {/* Headline */}
-            <h2 className="font-display text-3xl sm:text-4xl lg:text-[42px] leading-tight text-[#1E1E1E] font-medium tracking-tight mb-6 sm:mb-8">
+            <h2 className="font-display text-3xl sm:text-4xl lg:text-[42px] leading-tight text-[#0E0F0A] font-medium tracking-tight mb-6 sm:mb-8">
               Homes Designed. <br />
               Lives Enriched.
             </h2>
@@ -45,7 +45,7 @@ export function TestimonialsSection() {
             <div className="flex items-center gap-3">
               <button
                 onClick={handlePrev}
-                className="w-11 h-11 rounded-full border border-[#D5CEC2] flex items-center justify-center text-[#1E1E1E] hover:border-[#C5A065] hover:bg-[#C5A065] hover:text-white transition-all duration-300 active:scale-95 shadow-sm"
+                className="w-11 h-11 rounded-full border border-[#DAD6CB] flex items-center justify-center text-[#0E0F0A] hover:border-[#EDB21F] hover:bg-[#EDB21F] hover:text-[#0E0F0A] transition-all duration-300 active:scale-95 shadow-sm"
                 aria-label="Previous client testimonial"
               >
                 <ArrowLeft className="w-4 h-4" />
@@ -53,7 +53,7 @@ export function TestimonialsSection() {
 
               <button
                 onClick={handleNext}
-                className="w-11 h-11 rounded-full border border-[#D5CEC2] flex items-center justify-center text-[#1E1E1E] hover:border-[#C5A065] hover:bg-[#C5A065] hover:text-white transition-all duration-300 active:scale-95 shadow-sm"
+                className="w-11 h-11 rounded-full border border-[#DAD6CB] flex items-center justify-center text-[#0E0F0A] hover:border-[#EDB21F] hover:bg-[#EDB21F] hover:text-[#0E0F0A] transition-all duration-300 active:scale-95 shadow-sm"
                 aria-label="Next client testimonial"
               >
                 <ArrowRight className="w-4 h-4" />
@@ -66,10 +66,10 @@ export function TestimonialsSection() {
           <div data-animate="fade-up" className="lg:col-span-8 xl:col-span-8 grid grid-cols-1 sm:grid-cols-12 gap-6 items-stretch">
             
             {/* Testimonial Quote Card */}
-            <div className="sm:col-span-7 bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E2D6] shadow-sm relative flex flex-col justify-between min-h-[260px] overflow-hidden">
+            <div className="sm:col-span-7 bg-white rounded-2xl p-6 sm:p-8 border border-[#DAD6CB] shadow-sm relative flex flex-col justify-between min-h-[260px] overflow-hidden">
               
               {/* Top Quote Mark Icon */}
-              <div className="text-4xl sm:text-5xl font-display text-[#C5A065]/70 leading-none select-none">
+              <div className="text-4xl sm:text-5xl font-display text-[#EDB21F]/70 leading-none select-none">
                 “
               </div>
 
@@ -84,13 +84,13 @@ export function TestimonialsSection() {
                   className="flex flex-col justify-between flex-1"
                 >
                   {/* Quote text */}
-                  <p className="font-sans text-sm sm:text-base text-[#3A3835] font-light leading-relaxed my-4 min-h-[72px]">
+                  <p className="font-sans text-sm sm:text-base text-[#0E0F0A] font-light leading-relaxed my-4 min-h-[72px]">
                     {current.quote}
                   </p>
 
                   {/* Author & Location */}
-                  <div className="flex items-center gap-3 pt-3 border-t border-[#F2ECE3]">
-                    <div className="relative w-10 h-10 rounded-full overflow-hidden border border-[#C5A065]/40 flex-shrink-0">
+                  <div className="flex items-center gap-3 pt-3 border-t border-[#DAD6CB]/40">
+                    <div className="relative w-10 h-10 rounded-full overflow-hidden border border-[#EDB21F]/40 flex-shrink-0">
                       <Image
                         src={current.avatar}
                         alt={current.name}
@@ -100,16 +100,16 @@ export function TestimonialsSection() {
                       />
                     </div>
                     <div>
-                      <h4 className="font-display text-sm font-semibold text-[#1E1E1E]">
+                      <h4 className="font-display text-sm font-semibold text-[#0E0F0A]">
                         {current.name}
                       </h4>
-                      <p className="font-sans text-xs text-[#8A847A] font-light">
+                      <p className="font-sans text-xs text-[#77766F] font-light">
                         {current.location}
                       </p>
                     </div>
 
                     {/* Closing quote mark in bottom right */}
-                    <div className="ml-auto text-3xl font-display text-[#C5A065]/50 leading-none select-none">
+                    <div className="ml-auto text-3xl font-display text-[#EDB21F]/50 leading-none select-none">
                       ”
                     </div>
                   </div>
@@ -119,7 +119,7 @@ export function TestimonialsSection() {
             </div>
 
             {/* Beside: Atmospheric Warm Dining Interior Photo with smooth image cross-fade */}
-            <div className="sm:col-span-5 relative aspect-[4/3] sm:aspect-auto sm:min-h-[260px] rounded-2xl overflow-hidden border border-[#E2DBD0] shadow-sm group bg-[#F0ECE4]">
+            <div className="sm:col-span-5 relative aspect-[4/3] sm:aspect-auto sm:min-h-[260px] rounded-2xl overflow-hidden border border-[#DAD6CB] shadow-sm group bg-[#F3EFE7]">
               <AnimatePresence mode="wait">
                 <motion.div
                   key={currentIndex}

@@ -26,12 +26,13 @@ const alexBrush = Alex_Brush({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://aginteriors.in"),
-  title: "AG Interior — Design Beyond Spaces. For a Better You.",
+  metadataBase: new URL("https://honeycraftinteriors.in"),
+  title: "Honey Craft Interior — Design Beyond Spaces. For a Better You.",
   description:
     "Thoughtfully designed residential and commercial interiors that blend aesthetics, functionality and your unique lifestyle. Chennai based, serving across Tamil Nadu.",
   keywords: [
-    "AG Interior",
+    "Honey Craft Interior",
+    "Honey Craft",
     "Interior Designers Chennai",
     "Luxury Home Interiors",
     "Modular Kitchens Chennai",
@@ -39,28 +40,27 @@ export const metadata: Metadata = {
     "False Ceilings",
     "Wardrobe Design",
   ],
-  authors: [{ name: "AG Interior" }],
+  authors: [{ name: "Honey Craft Interior" }],
   icons: {
     icon: [
       { url: getAssetUrl("/favicon.ico"), sizes: "32x32" },
-      { url: getAssetUrl("/icon.svg"), type: "image/svg+xml" },
       { url: getAssetUrl("/icon.png"), type: "image/png", sizes: "48x48" },
     ],
     shortcut: getAssetUrl("/favicon.ico"),
     apple: getAssetUrl("/apple-touch-icon.png"),
   },
   openGraph: {
-    title: "AG Interior — Design Beyond Spaces. For a Better You.",
+    title: "Honey Craft Interior — Design Beyond Spaces. For a Better You.",
     description:
       "Thoughtfully designed residential and commercial interiors that blend aesthetics, functionality and your unique lifestyle.",
-    url: "https://aginteriors.in",
-    siteName: "AG Interior",
+    url: "https://honeycraftinteriors.in",
+    siteName: "Honey Craft Interior",
     images: [
       {
-        url: getAssetUrl("/images/ag-official-logo-transparent.png"),
+        url: getAssetUrl("/images/logo.webp"),
         width: 1024,
         height: 1024,
-        alt: "AG Interior Official Logo",
+        alt: "Honey Craft Interior Official Logo",
       },
     ],
     type: "website",
@@ -68,10 +68,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AG Interior — Design Beyond Spaces",
+    title: "Honey Craft Interior — Design Beyond Spaces",
     description:
       "Thoughtfully designed residential and commercial interiors that blend aesthetics, functionality and your unique lifestyle.",
-    images: [getAssetUrl("/images/ag-official-logo-transparent.png")],
+    images: [getAssetUrl("/images/logo.webp")],
   },
 };
 
@@ -84,7 +84,6 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         <link rel="icon" href={getAssetUrl("/favicon.ico")} sizes="any" />
-        <link rel="icon" href={getAssetUrl("/icon.svg")} type="image/svg+xml" />
         <link rel="icon" href={getAssetUrl("/icon.png")} type="image/png" sizes="48x48" />
         <link rel="apple-touch-icon" href={getAssetUrl("/apple-touch-icon.png")} />
       </head>

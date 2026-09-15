@@ -159,7 +159,7 @@ export const TESTIMONIALS: TestimonialItem[] = [
   {
     id: "priya-karthik",
     quote:
-      "AG Interior transformed our house into a home. Their attention to detail, creative ideas, and professional execution were outstanding!",
+      "Honey Craft Interior transformed our house into a home. Their attention to detail, creative ideas, and professional execution were outstanding!",
     name: "Priya & Karthik",
     location: "Chennai",
     avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=300&auto=format&fit=crop",

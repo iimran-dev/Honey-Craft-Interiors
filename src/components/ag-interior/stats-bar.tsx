@@ -7,7 +7,7 @@ export function StatsBar() {
       label: "Projects Completed",
       icon: (
         <svg
-          className="w-6 h-6 text-[#C5A065]"
+          className="w-6 h-6 text-[#EDB21F]"
           viewBox="0 0 24 24"
           fill="none"
           stroke="currentColor"
@@ -30,7 +30,7 @@ export function StatsBar() {
       label: "Custom Designs",
       icon: (
         <svg
-          className="w-6 h-6 text-[#C5A065]"
+          className="w-6 h-6 text-[#EDB21F]"
           viewBox="0 0 24 24"
           fill="none"
           stroke="currentColor"
@@ -52,7 +52,7 @@ export function StatsBar() {
       label: "Execution —",
       icon: (
         <svg
-          className="w-6 h-6 text-[#C5A065]"
+          className="w-6 h-6 text-[#EDB21F]"
           viewBox="0 0 24 24"
           fill="none"
           stroke="currentColor"
@@ -72,7 +72,7 @@ export function StatsBar() {
       label: "Serving Across Tamil Nadu",
       icon: (
         <svg
-          className="w-6 h-6 text-[#C5A065]"
+          className="w-6 h-6 text-[#EDB21F]"
           viewBox="0 0 24 24"
           fill="none"
           stroke="currentColor"
@@ -88,7 +88,7 @@ export function StatsBar() {
   ];
 
   return (
-    <section className="bg-white border-y border-[#ECE7DF] py-6 sm:py-8 lg:py-9 overflow-hidden">
+    <section className="bg-white border-y border-[#DAD6CB] py-6 sm:py-8 lg:py-9 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div
           data-animate="stagger-group"
@@ -99,25 +99,25 @@ export function StatsBar() {
               key={index}
               data-animate="stagger-item"
               className={`group flex items-center gap-4 transition-transform duration-300 hover:translate-x-1 ${
-                index > 0 ? "lg:border-l lg:border-[#ECE7DF] lg:pl-8 xl:pl-10" : ""
+                index > 0 ? "lg:border-l lg:border-[#DAD6CB] lg:pl-8 xl:pl-10" : ""
               } ${
                 index % 2 === 1 && index !== 0
-                  ? "sm:border-l sm:border-[#ECE7DF] sm:pl-6 lg:border-l-0 lg:pl-0"
+                  ? "sm:border-l sm:border-[#DAD6CB] sm:pl-6 lg:border-l-0 lg:pl-0"
                   : ""
               } ${
                 index > 0 ? "pt-4 sm:pt-0" : ""
               } ${
-                index >= 2 ? "sm:border-t sm:border-[#ECE7DF] sm:pt-6 lg:border-t-0 lg:pt-0" : ""
+                index >= 2 ? "sm:border-t sm:border-[#DAD6CB] sm:pt-6 lg:border-t-0 lg:pt-0" : ""
               }`}
             >
-              <div className="w-12 h-12 rounded-full bg-[#FAF8F5] border border-[#E8E1D5] flex items-center justify-center flex-shrink-0 shadow-sm group-hover:border-[#C5A065] group-hover:bg-[#C5A065]/10 group-hover:scale-105 transition-all duration-300">
+              <div className="w-12 h-12 rounded-full bg-[#FDFBF7] border border-[#DAD6CB] flex items-center justify-center flex-shrink-0 shadow-sm group-hover:border-[#EDB21F] group-hover:bg-[#F8E7B0]/25 group-hover:scale-105 transition-all duration-300">
                 {item.icon}
               </div>
               <div>
-                <span className="block font-display text-xl sm:text-2xl font-semibold text-[#1E1E1E] leading-tight tracking-tight group-hover:text-[#C5A065] transition-colors">
+                <span className="block font-display text-xl sm:text-2xl font-semibold text-[#0E0F0A] leading-tight tracking-tight group-hover:text-[#EDB21F] transition-colors">
                   {item.value}
                 </span>
-                <span className="block font-sans text-xs text-[#757067] font-normal mt-0.5">
+                <span className="block font-sans text-xs text-[#77766F] font-normal mt-0.5">
                   {item.label}
                 </span>
               </div>
